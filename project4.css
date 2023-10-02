@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+    }
+    
+     td {
+    padding: 4px;
+    border: 1px solid black;
+    }
+    
+    
+    tr:nth-of-type(even) {
+    background-color: #ccc;
+    }
+    
+    tr:first-of-type  {
+    text-align: left;
+    }
